@@ -1,8 +1,8 @@
  expect = require('expect');
 const request = require('supertest');
 
-const {ObjectID} = require('mongodb');
 const {app} = require('./../server');
+const {ObjectID} = require('mongodb');
 const {Todo} = require('./../models/todo');
 
 
